@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-border-right {
+    border-right: solid 2px rgb(215, 215, 215);
+}
