@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom-border-right {
-    border-right: solid 2px rgb(215, 215, 215);
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+.test {
+    border: 2px dashed pink;
 }
