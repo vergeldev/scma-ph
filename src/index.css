@@ -9,3 +9,8 @@ html {
 .test {
     border: 2px dashed pink;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}

@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import SidebarLinks from '../components/SidebarLinks'
 import { rootLayoutStyle } from '../styles/allStyles'
+import DarkModeToggle from '../components/DarkModeToggle'
 
 export default function RootLayout() {
     return (
@@ -15,6 +16,12 @@ export default function RootLayout() {
                     <SidebarLinks name="logistics" iconsName="conveyor_belt" />
                     <SidebarLinks name="payments" iconsName="payments" />
                     <SidebarLinks name="analytics" iconsName="analytics" />
+                </nav>
+                <nav>
+                    <p className={rootLayoutStyle.p}>SUPPORT</p>
+                    <SidebarLinks name="settings" iconsName="settings" />
+                    <SidebarLinks name="help" iconsName="help" />
+                    <DarkModeToggle />
                 </nav>
             </header>
 
